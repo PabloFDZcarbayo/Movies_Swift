@@ -1,4 +1,4 @@
-##🎬 Movie List App (iOS - SwiftUI)
+## 🎬 Movie List App (iOS - SwiftUI)
 
 ¡Bienvenido al repositorio de Movie List App! Esta es una aplicación iOS desarrollada con SwiftUI que muestra un listado de películas mejor valoradas utilizando la API de The Movie Database (TMDb). La aplicación permite a los usuarios explorar películas y filtrarlas por nombre mediante un buscador.
 
