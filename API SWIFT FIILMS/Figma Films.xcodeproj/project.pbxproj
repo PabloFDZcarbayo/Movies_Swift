@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E046F012D2D257E0021D185 /* Pelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E046F002D2D257E0021D185 /* Pelicula.swift */; };
+		6E484D082D29A1390030DE4B /* Figma_FilmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E484D072D29A1390030DE4B /* Figma_FilmsApp.swift */; };
+		6E484D0C2D29A13B0030DE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E484D0B2D29A13B0030DE4B /* Assets.xcassets */; };
+		6E484D0F2D29A13B0030DE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E484D0E2D29A13B0030DE4B /* Preview Assets.xcassets */; };
+		6E484D1C2D29A75F0030DE4B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E484D1B2D29A75F0030DE4B /* CardView.swift */; };
+		6E484D202D29B0F80030DE4B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E484D1F2D29B0F80030DE4B /* MainView.swift */; };
+		6E484D222D29B1C30030DE4B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E484D212D29B1C30030DE4B /* DetailView.swift */; };
+		6EC6B24C2D4CF3E300721ACD /* PeliculaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6B24B2D4CF3E300721ACD /* PeliculaViewModel.swift */; };
+		6EC6B24E2D4D0F4800721ACD /* Genero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6B24D2D4D0F4800721ACD /* Genero.swift */; };
+		6EC6B2502D4D1A3700721ACD /* GeneroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6B24F2D4D1A3700721ACD /* GeneroViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E046F002D2D257E0021D185 /* Pelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelicula.swift; sourceTree = "<group>"; };
+		6E484D042D29A1390030DE4B /* Figma Films.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Figma Films.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E484D072D29A1390030DE4B /* Figma_FilmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figma_FilmsApp.swift; sourceTree = "<group>"; };
+		6E484D0B2D29A13B0030DE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E484D0E2D29A13B0030DE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E484D1B2D29A75F0030DE4B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6E484D1F2D29B0F80030DE4B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6E484D212D29B1C30030DE4B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6EC6B24B2D4CF3E300721ACD /* PeliculaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculaViewModel.swift; sourceTree = "<group>"; };
+		6EC6B24D2D4D0F4800721ACD /* Genero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genero.swift; sourceTree = "<group>"; };
+		6EC6B24F2D4D1A3700721ACD /* GeneroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneroViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E484D012D29A1390030DE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E484CFB2D29A1390030DE4B = {
+			isa = PBXGroup;
+			children = (
+				6E484D062D29A1390030DE4B /* Figma Films */,
+				6E484D052D29A1390030DE4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E484D052D29A1390030DE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E484D042D29A1390030DE4B /* Figma Films.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E484D062D29A1390030DE4B /* Figma Films */ = {
+			isa = PBXGroup;
+			children = (
+				6EC6B24A2D4CCE0900721ACD /* ViewModel */,
+				6EC6B2492D4CCDFF00721ACD /* Model */,
+				6EC6B2482D4CCDF700721ACD /* View */,
+				6E484D072D29A1390030DE4B /* Figma_FilmsApp.swift */,
+				6E484D0B2D29A13B0030DE4B /* Assets.xcassets */,
+				6E484D0D2D29A13B0030DE4B /* Preview Content */,
+			);
+			path = "Figma Films";
+			sourceTree = "<group>";
+		};
+		6E484D0D2D29A13B0030DE4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E484D0E2D29A13B0030DE4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EC6B2482D4CCDF700721ACD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E484D212D29B1C30030DE4B /* DetailView.swift */,
+				6E484D1F2D29B0F80030DE4B /* MainView.swift */,
+				6E484D1B2D29A75F0030DE4B /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EC6B2492D4CCDFF00721ACD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E046F002D2D257E0021D185 /* Pelicula.swift */,
+				6EC6B24D2D4D0F4800721ACD /* Genero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EC6B24A2D4CCE0900721ACD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6EC6B24B2D4CF3E300721ACD /* PeliculaViewModel.swift */,
+				6EC6B24F2D4D1A3700721ACD /* GeneroViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E484D032D29A1390030DE4B /* Figma Films */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E484D122D29A13B0030DE4B /* Build configuration list for PBXNativeTarget "Figma Films" */;
+			buildPhases = (
+				6E484D002D29A1390030DE4B /* Sources */,
+				6E484D012D29A1390030DE4B /* Frameworks */,
+				6E484D022D29A1390030DE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Figma Films";
+			productName = "Figma Films";
+			productReference = 6E484D042D29A1390030DE4B /* Figma Films.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E484CFC2D29A1390030DE4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6E484D032D29A1390030DE4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6E484CFF2D29A1390030DE4B /* Build configuration list for PBXProject "Figma Films" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E484CFB2D29A1390030DE4B;
+			productRefGroup = 6E484D052D29A1390030DE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E484D032D29A1390030DE4B /* Figma Films */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E484D022D29A1390030DE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E484D0F2D29A13B0030DE4B /* Preview Assets.xcassets in Resources */,
+				6E484D0C2D29A13B0030DE4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E484D002D29A1390030DE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E484D202D29B0F80030DE4B /* MainView.swift in Sources */,
+				6EC6B24C2D4CF3E300721ACD /* PeliculaViewModel.swift in Sources */,
+				6E484D082D29A1390030DE4B /* Figma_FilmsApp.swift in Sources */,
+				6E484D222D29B1C30030DE4B /* DetailView.swift in Sources */,
+				6EC6B2502D4D1A3700721ACD /* GeneroViewModel.swift in Sources */,
+				6E046F012D2D257E0021D185 /* Pelicula.swift in Sources */,
+				6E484D1C2D29A75F0030DE4B /* CardView.swift in Sources */,
+				6EC6B24E2D4D0F4800721ACD /* Genero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E484D102D29A13B0030DE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E484D112D29A13B0030DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E484D132D29A13B0030DE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Figma Films/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablo.Figma-Films";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E484D142D29A13B0030DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Figma Films/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablo.Figma-Films";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E484CFF2D29A1390030DE4B /* Build configuration list for PBXProject "Figma Films" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E484D102D29A13B0030DE4B /* Debug */,
+				6E484D112D29A13B0030DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E484D122D29A13B0030DE4B /* Build configuration list for PBXNativeTarget "Figma Films" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E484D132D29A13B0030DE4B /* Debug */,
+				6E484D142D29A13B0030DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E484CFC2D29A1390030DE4B /* Project object */;
+}
